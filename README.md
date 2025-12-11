@@ -1,5 +1,27 @@
 # 🏥 Patient Queue Management System
 
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (Client)
+* **Framework:** [Next.js 16+](https://nextjs.org/) (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Components:** [Shadcn/UI](https://ui.shadcn.com/)
+* **State Management:** React Context API + Custom Hooks
+* **Notifications:** Sonner
+* **HTTP Client:** Axios
+
+### Backend (Server)
+* **Runtime:** Node.js
+* **Framework:** Express.js
+* **Language:** TypeScript
+* **Validation:** Zod
+* **Storage:** In-memory repository (Data resets on server restart)
+
+---
+
 ### 1. Backend Setup (Port 3030)
 
 1.  Navigate to the backend folder:
