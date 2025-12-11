@@ -1,3 +1,7 @@
 # Ignore all node_modules folders in all subdirectories
 node_modules/
 **/node_modules/
+
+# Ignore all Next.js build folders
+.next/
+**/.next/
