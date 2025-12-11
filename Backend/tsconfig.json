@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     /* Specify ECMAScript target version */
+    "module": "NodeNext",                   /* Specify module code generation for Node's ESM */
+    "moduleResolution": "NodeNext",         /* Specify module resolution strategy for Node's ESM */
+    "esModuleInterop": true,                /* Allows default imports from modules with no default export. Required for Express. */
+    "forceConsistentCasingInFileNames": true, /* Ensure consistent file names */
+
+    "strict": true,                         /* Enable all strict type-checking options */
+    "skipLibCheck": true,                   /* Skip type checking of declaration files */
+    "outDir": "./dist",                     /* Redirect output structure to the directory */
+    "rootDir": "./src"                      /* Specify the root directory of source files */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
