@@ -1,4 +1,3 @@
-// src/components/forms/PatientFields.tsx
 'use client';
 
 import { Control, FieldPath } from 'react-hook-form';

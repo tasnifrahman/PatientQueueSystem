@@ -1,4 +1,3 @@
-// src/components/summary/StatCard.tsx
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';

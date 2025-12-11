@@ -1,4 +1,3 @@
-// src/components/summary/SummarySection.tsx
 'use client';
 
 import { usePatientQueue } from '@/hooks/usePatientQueue';

@@ -1,4 +1,3 @@
-// src/components/queue/PatientQueueList.tsx
 'use client';
 
 import { usePatientQueue } from '@/hooks/usePatientQueue';

@@ -1,4 +1,3 @@
-// src/components/queue/QueueItem.tsx
 'use client';
 
 import { useState } from 'react';

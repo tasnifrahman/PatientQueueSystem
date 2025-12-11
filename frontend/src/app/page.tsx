@@ -1,10 +1,7 @@
-// src/app/page.tsx
 'use client';
 
 import { Toaster } from 'sonner';
-// Import the new Provider
 import { PatientQueueProvider } from '@/hooks/usePatientQueue'; 
-
 import { SummarySection } from '@/components/summary/SummarySection';
 import { PatientEntryForm } from '@/components/forms/PatientEntryForm';
 import { PatientQueueList } from '@/components/queue/PatientQueueList';
@@ -12,7 +9,6 @@ import { Separator } from '@/components/ui/separator';
 
 export default function HomePage() {
   return (
-    // WRAP EVERYTHING IN THE PROVIDER
     <PatientQueueProvider> 
       <div className="flex min-h-screen justify-center bg-gray-50 dark:bg-zinc-900">
         <main className="w-full max-w-6xl p-6 md:p-10 lg:p-12">
