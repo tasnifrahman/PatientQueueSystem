@@ -38,7 +38,7 @@ export function PatientQueueList() {
                 <CardTitle>Waiting Queue ({queue.length} Patients)</CardTitle>
             </CardHeader>
             <Separator />
-            <CardContent className="pt-6 space-y-4">
+            <CardContent className="pt-6 space-y-4 max-h-[600px] overflow-y-auto pr-4">
                 {queue.map((patient) => (
                     <QueueItem key={patient.id} patient={patient} />
                 ))}
